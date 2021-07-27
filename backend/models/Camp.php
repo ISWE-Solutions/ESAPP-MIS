@@ -23,7 +23,7 @@ use yii\helpers\ArrayHelper;
  * @property District $district
  * @property CommodityPriceCollection[] $commodityPriceCollections
  */
-class Camps extends \yii\db\ActiveRecord {
+class Camp extends \yii\db\ActiveRecord {
 
     public $province_id;
 

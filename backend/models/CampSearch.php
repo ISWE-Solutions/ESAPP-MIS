@@ -4,12 +4,12 @@ namespace backend\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Camps;
+use backend\models\Camp;
 
 /**
  * CampsSearch represents the model behind the search form of `backend\models\Camps`.
  */
-class CampsSearch extends Camps
+class CampSearch extends Camp
 {
     /**
      * {@inheritdoc}
@@ -40,7 +40,7 @@ class CampsSearch extends Camps
      */
     public function search($params)
     {
-        $query = Camps::find();
+        $query = Camp::find();
 
         // add conditions that should always apply here
 

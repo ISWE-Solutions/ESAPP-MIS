@@ -25,7 +25,6 @@ use common\models\Role;
  * @property int $status
  * @property int $created_at
  * @property int $updated_at
- *
  * @property Institutions $institution
  * @property Role $role0
  */

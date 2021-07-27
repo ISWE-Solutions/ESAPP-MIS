@@ -21,6 +21,9 @@ return [
     'components' => [
         'request' => [
             'csrfParam' => 'essap_csrf-frontend',
+            'parsers' => [
+                'application/json' => \yii\web\JsonParser::class
+            ]
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -58,8 +61,9 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*'urlManager' => [
-            'enablePrettyUrl' => false,
+       /* 'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
