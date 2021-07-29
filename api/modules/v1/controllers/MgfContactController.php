@@ -2,12 +2,13 @@
 
 namespace api\modules\v1\controllers;
 
-class ProvinceController extends \yii\rest\ActiveController
+class MgfcontactController extends \yii\rest\ActiveController
 {
-    public $modelClass = 'backend\models\Province';
+    public $modelClass = 'backend\models\MgfContact';
 
     public function actionIndex()
     {
         return $this->render('index');
     }
+
 }

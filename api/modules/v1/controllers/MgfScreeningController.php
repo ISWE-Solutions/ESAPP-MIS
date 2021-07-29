@@ -2,9 +2,9 @@
 
 namespace api\modules\v1\controllers;
 
-class ProvinceController extends \yii\rest\ActiveController
+class MgfscreeningController extends \yii\rest\ActiveController
 {
-    public $modelClass = 'backend\models\Province';
+    public $modelClass = 'backend\models\MgfScreening';
 
     public function actionIndex()
     {

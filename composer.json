@@ -60,7 +60,8 @@
         "phpoffice/phpword": "^0.17.0",
         "ivankff/yii2-modal-ajax": "@dev",
         "bizley/migration": "^4.1",
-        "linslin/yii2-curl": "*"
+        "linslin/yii2-curl": "*",
+        "yii2mod/yii2-swagger": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

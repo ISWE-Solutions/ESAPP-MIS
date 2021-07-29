@@ -2,12 +2,13 @@
 
 namespace api\modules\v1\controllers;
 
-class ProvinceController extends \yii\rest\ActiveController
+class MefaabsgroupsController extends \yii\rest\ActiveController
 {
-    public $modelClass = 'backend\models\Province';
+    public $modelClass = 'backend\models\MeFaabsGroups';
 
     public function actionIndex()
     {
         return $this->render('index');
     }
+
 }

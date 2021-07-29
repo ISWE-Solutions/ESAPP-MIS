@@ -2,9 +2,9 @@
 
 namespace api\modules\v1\controllers;
 
-class ProvinceController extends \yii\rest\ActiveController
+class MgfselectioncategoryController extends \yii\rest\ActiveController
 {
-    public $modelClass = 'backend\models\Province';
+    public $modelClass = 'backend\models\MgfSelectionCategory';
 
     public function actionIndex()
     {
